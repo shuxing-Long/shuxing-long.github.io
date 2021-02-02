@@ -34,17 +34,17 @@
   
   <url>
     <loc>https://shuxing-long.github.io/blog/</loc>
-    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+    <lastmod>2021-02-02T11:51:49+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shuxing-long.github.io/blog/text1/</loc>
-    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+    <loc>https://shuxing-long.github.io/blog/text2/</loc>
+    <lastmod>2021-02-02T11:51:49+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://shuxing-long.github.io/</loc>
-    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+    <lastmod>2021-02-02T11:51:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -55,6 +55,51 @@
                 hreflang="en"
                 href="https://shuxing-long.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/tags/asp.nwt-web/</loc>
+    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/categories/asp.nwt-web/</loc>
+    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/categories/</loc>
+    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://shuxing-long.github.io/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuxing-long.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/tags/</loc>
+    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://shuxing-long.github.io/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuxing-long.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/blog/text1/</loc>
+    <lastmod>2021-02-01T14:21:19+08:00</lastmod>
   </url>
   
   <url>
@@ -113,21 +158,6 @@
   </url>
   
   <url>
-    <loc>https://shuxing-long.github.io/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://shuxing-long.github.io/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shuxing-long.github.io/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>https://shuxing-long.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -170,21 +200,6 @@
   <url>
     <loc>https://shuxing-long.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://shuxing-long.github.io/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shuxing-long.github.io/tags/"
-                />
   </url>
   
   <url>

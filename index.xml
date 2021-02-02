@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 01 Feb 2021 14:21:19 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 11:51:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://shuxing-long.github.io/posts/2014/09/creating-a-new-theme/</link>
@@ -30,12 +30,21 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
-      <title>Text1</title>
+      <title>Text2</title>
+      <link>https://shuxing-long.github.io/blog/text2/</link>
+      <pubDate>Tue, 02 Feb 2021 11:51:49 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/blog/text2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习ASP.NWT WEB第二章</title>
       <link>https://shuxing-long.github.io/blog/text1/</link>
       <pubDate>Mon, 01 Feb 2021 14:21:19 +0800</pubDate>
       
       <guid>https://shuxing-long.github.io/blog/text1/</guid>
-      <description>乃阳是垃圾， 垃圾的室长， 垃圾的我 hh</description>
+      <description>哈哈哈</description>
     </item>
     
     <item>
