@@ -17,5 +17,14 @@
       <description>点击下面查看笔记</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://shuxing-long.github.io/blog/js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shuxing-long.github.io/blog/js/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
