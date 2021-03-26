@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASP.NeT WEB on 307的学习笔记</title>
+    <link>https://shuxing-long.github.io/categories/asp.net-web/</link>
+    <description>Recent content in ASP.NeT WEB on 307的学习笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 02 Feb 2021 11:51:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/categories/asp.net-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一章</title>
+      <link>https://shuxing-long.github.io/asp.net_web/asp.nwt_1/</link>
+      <pubDate>Tue, 02 Feb 2021 11:51:49 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/asp.net_web/asp.nwt_1/</guid>
+      <description>1.1 web应用程序大概有两种：静态网页和动态网页。 静态网页的工作流程：
+ 响应 -------------------------------------------------------------- | | | ---------------------------- 浏览器--------------&amp;gt;网络-------------------------&amp;gt; | web服务器&amp;lt;-------&amp;gt;静态页面 | 请求 ---------------------------- 动态网页的工作流程：
+ 响应 -------------------------------------------------------------- | | | ---------------------------- 浏览器--------------&amp;gt;网络-------------------------&amp;gt; | web服务器&amp;lt;-------&amp;gt;静态页面 | 请求 | | | | |-&amp;gt;动态脚本 | | | 程序 ---&amp;gt;数据库 | |（JSP,ASP) | ---------------------------- 1.2 HTTP协议 URL:URL是Uniform Resource Locator的缩写，表示统一的资源定位器，是专为标识网络上的 资源位置而设定的一种编码地址方式。
+URL格式：
+ 应用层协议://主机IP地址或域名/资源所在路径/文件名 总结 web应用程序二点工作原理是什么： 1.用户在浏览器输入网址或点击按钮提交请求 2.浏览器以HTTP协议的规定把请求传输到服务器中，服务器处理信息，再回传到用户浏览器中
+HTTP的请求方式有那行：
+1.post和get</description>
+    </item>
+    
+    <item>
+      <title>学习ASP.NWT WEB</title>
+      <link>https://shuxing-long.github.io/blog/asp.net/</link>
+      <pubDate>Mon, 01 Feb 2021 14:21:19 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/blog/asp.net/</guid>
+      <description>点击下面查看笔记</description>
+    </item>
+    
+  </channel>
+</rss>

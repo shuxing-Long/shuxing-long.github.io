@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>js on 307的学习笔记</title>
-    <link>https://shuxing-long.github.io/categories/js/</link>
-    <description>Recent content in js on 307的学习笔记</description>
+    <title>Jsxxes on 307的学习笔记</title>
+    <link>https://shuxing-long.github.io/jsxx/</link>
+    <description>Recent content in Jsxxes on 307的学习笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 22 Mar 2021 14:21:19 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/categories/js/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>学习js</title>
-      <link>https://shuxing-long.github.io/blog/js/</link>
-      <pubDate>Mon, 22 Mar 2021 14:21:19 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/blog/js/</guid>
-      <description>点击下面查看笔记</description>
-    </item>
-    
+    <lastBuildDate>Mon, 22 Mar 2021 11:51:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/jsxx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>学习js第一章</title>
       <link>https://shuxing-long.github.io/jsxx/js_1/</link>
