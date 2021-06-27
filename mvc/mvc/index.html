@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Be_Yourslf ">
+<meta name="description" content="1.在Asp.net mvc中如何获取上传文件保存的路径？ A.通过File类获取磁盘路径。答案：B.通过Server.MapPath()获取服务器路径。C.通过Directory获取磁盘目录。D.直接使用绝对路径。 2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码? A.Html.select()B.Html.CheckBox()C.Html.TextBox()答案：D.Html.DropDownList() 3.在ASP .NET MVC中，以下对于强类型理解错误的是？ A.强类型的使用可以提高开发视图的效率和精准度。B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。答案：C.@model关键字指定属性Property的值。D.Razor视图可以智能感知，可直接访问强类型对象的属性。 4.以下MVC执行流程正确的是？ 答案：浏览器请求》模型》控制器》视图》显示结果 5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？ 答案:System.web.Mvc.html 6.asp.net mvc中，下列那个辅助方法可以输出&amp;lt;input type=&amp;ldquo;text&amp;rdquo; 答案:html.textbox() 7.在asp.net mvc中，以下关于强类型说法正确的是？ A.object类型就属于&amp;quot;强类型&amp;quot;B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。D.强类型指的是变量在定义时已经明确指定其类型，如：var age; 8.在asp.net mvc中，下列关于支架模板说法错误的是？ A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。答案：B.&amp;quot;支架&amp;quot;模板功能需要我们手动完成视图代码编写。C.&amp;quot;支架&amp;quot;模板功能只能在强类型视图基础上使用。D.&amp;quot;支架&amp;quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。  " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://shuxing-long.github.io/mvc/mvc/" />
+
+
+    <title>
+        
+            MVC错题笔记 :: 零的学习笔记  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://shuxing-long.github.io/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://shuxing-long.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://shuxing-long.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://shuxing-long.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://shuxing-long.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://shuxing-long.github.io/safari-pinned-tab.svg" color="#1b1c1d">
+    <link rel="shortcut icon" href="https://shuxing-long.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1b1c1d">
+    <meta name="theme-color" content="#1b1c1d">
+
+
+
+<meta itemprop="name" content="MVC错题笔记">
+<meta itemprop="description" content="1.在Asp.net mvc中如何获取上传文件保存的路径？ A.通过File类获取磁盘路径。答案：B.通过Server.MapPath()获取服务器路径。C.通过Directory获取磁盘目录。D.直接使用绝对路径。 2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码? A.Html.select()B.Html.CheckBox()C.Html.TextBox()答案：D.Html.DropDownList() 3.在ASP .NET MVC中，以下对于强类型理解错误的是？ A.强类型的使用可以提高开发视图的效率和精准度。B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。答案：C.@model关键字指定属性Property的值。D.Razor视图可以智能感知，可直接访问强类型对象的属性。 4.以下MVC执行流程正确的是？ 答案：浏览器请求》模型》控制器》视图》显示结果 5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？ 答案:System.web.Mvc.html 6.asp.net mvc中，下列那个辅助方法可以输出&lt;input type=&ldquo;text&rdquo; 答案:html.textbox() 7.在asp.net mvc中，以下关于强类型说法正确的是？ A.object类型就属于&quot;强类型&quot;B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。D.强类型指的是变量在定义时已经明确指定其类型，如：var age; 8.在asp.net mvc中，下列关于支架模板说法错误的是？ A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。答案：B.&quot;支架&quot;模板功能需要我们手动完成视图代码编写。C.&quot;支架&quot;模板功能只能在强类型视图基础上使用。D.&quot;支架&quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。  ">
+<meta itemprop="datePublished" content="2021-02-02T11:51:49+08:00" />
+<meta itemprop="dateModified" content="2021-02-02T11:51:49+08:00" />
+<meta itemprop="wordCount" content="42">
+<meta itemprop="image" content="https://shuxing-long.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://shuxing-long.github.io/"/>
+
+<meta name="twitter:title" content="MVC错题笔记"/>
+<meta name="twitter:description" content="1.在Asp.net mvc中如何获取上传文件保存的路径？ A.通过File类获取磁盘路径。答案：B.通过Server.MapPath()获取服务器路径。C.通过Directory获取磁盘目录。D.直接使用绝对路径。 2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码? A.Html.select()B.Html.CheckBox()C.Html.TextBox()答案：D.Html.DropDownList() 3.在ASP .NET MVC中，以下对于强类型理解错误的是？ A.强类型的使用可以提高开发视图的效率和精准度。B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。答案：C.@model关键字指定属性Property的值。D.Razor视图可以智能感知，可直接访问强类型对象的属性。 4.以下MVC执行流程正确的是？ 答案：浏览器请求》模型》控制器》视图》显示结果 5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？ 答案:System.web.Mvc.html 6.asp.net mvc中，下列那个辅助方法可以输出&lt;input type=&ldquo;text&rdquo; 答案:html.textbox() 7.在asp.net mvc中，以下关于强类型说法正确的是？ A.object类型就属于&quot;强类型&quot;B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。D.强类型指的是变量在定义时已经明确指定其类型，如：var age; 8.在asp.net mvc中，下列关于支架模板说法错误的是？ A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。答案：B.&quot;支架&quot;模板功能需要我们手动完成视图代码编写。C.&quot;支架&quot;模板功能只能在强类型视图基础上使用。D.&quot;支架&quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。  "/>
+
+
+
+
+    <meta property="og:title" content="MVC错题笔记" />
+<meta property="og:description" content="1.在Asp.net mvc中如何获取上传文件保存的路径？ A.通过File类获取磁盘路径。答案：B.通过Server.MapPath()获取服务器路径。C.通过Directory获取磁盘目录。D.直接使用绝对路径。 2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码? A.Html.select()B.Html.CheckBox()C.Html.TextBox()答案：D.Html.DropDownList() 3.在ASP .NET MVC中，以下对于强类型理解错误的是？ A.强类型的使用可以提高开发视图的效率和精准度。B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。答案：C.@model关键字指定属性Property的值。D.Razor视图可以智能感知，可直接访问强类型对象的属性。 4.以下MVC执行流程正确的是？ 答案：浏览器请求》模型》控制器》视图》显示结果 5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？ 答案:System.web.Mvc.html 6.asp.net mvc中，下列那个辅助方法可以输出&lt;input type=&ldquo;text&rdquo; 答案:html.textbox() 7.在asp.net mvc中，以下关于强类型说法正确的是？ A.object类型就属于&quot;强类型&quot;B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。D.强类型指的是变量在定义时已经明确指定其类型，如：var age; 8.在asp.net mvc中，下列关于支架模板说法错误的是？ A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。答案：B.&quot;支架&quot;模板功能需要我们手动完成视图代码编写。C.&quot;支架&quot;模板功能只能在强类型视图基础上使用。D.&quot;支架&quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shuxing-long.github.io/mvc/mvc/" />
+<meta property="og:image" content="https://shuxing-long.github.io/"/>
+<meta property="article:published_time" content="2021-02-02T11:51:49+08:00" />
+<meta property="article:modified_time" content="2021-02-02T11:51:49+08:00" />
+
+
+
+
+    <meta property="article:section" content="MVC" />
+
+
+
+    <meta property="article:published_time" content="2021-02-02 11:51:49 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://shuxing-long.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd /Home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://shuxing-long.github.io/about/">About</a></li><li><a href="https://shuxing-long.github.io/blog/">Blogs</a></li><li><a href="https://shuxing-long.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://shuxing-long.github.io/mvc/mvc/">MVC错题笔记</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="1在aspnet-mvc中如何获取上传文件保存的路径">1.在Asp.net mvc中如何获取上传文件保存的路径？</h2>
+<pre><code>A.通过File类获取磁盘路径。
+答案：B.通过Server.MapPath()获取服务器路径。
+C.通过Directory获取磁盘目录。
+D.直接使用绝对路径。
+</code></pre>
+<h2 id="2在aspnet-mvc中选项中那个辅助方法可以生成如下代码selectselect">2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码?<!-- raw HTML omitted --><!-- raw HTML omitted --></h2>
+<pre><code>A.Html.select()
+B.Html.CheckBox()
+C.Html.TextBox()
+答案：D.Html.DropDownList()
+</code></pre>
+<h2 id="3在asp-net-mvc中以下对于强类型理解错误的是">3.在ASP .NET MVC中，以下对于强类型理解错误的是？</h2>
+<pre><code>A.强类型的使用可以提高开发视图的效率和精准度。
+B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。
+答案：C.@model关键字指定属性Property的值。
+D.Razor视图可以智能感知，可直接访问强类型对象的属性。
+</code></pre>
+<h2 id="4以下mvc执行流程正确的是">4.以下MVC执行流程正确的是？</h2>
+<pre><code>答案：浏览器请求》模型》控制器》视图》显示结果
+</code></pre>
+<h2 id="5aspnet-mvc-所有的htmlhelper扩展方法所在命名空间为">5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？</h2>
+<pre><code>答案:System.web.Mvc.html
+</code></pre>
+<h2 id="6aspnet-mvc中下列那个辅助方法可以输出input-typetext">6.asp.net mvc中，下列那个辅助方法可以输出&lt;input type=&ldquo;text&rdquo;</h2>
+<pre><code>答案:html.textbox()
+</code></pre>
+<h2 id="7在aspnet-mvc中以下关于强类型说法正确的是">7.在asp.net mvc中，以下关于强类型说法正确的是？</h2>
+<pre><code>A.object类型就属于&quot;强类型&quot;
+B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。
+答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。
+D.强类型指的是变量在定义时已经明确指定其类型，如：var age;
+</code></pre>
+<h2 id="8在aspnet-mvc中下列关于支架模板说法错误的是">8.在asp.net mvc中，下列关于支架模板说法错误的是？</h2>
+<pre><code>A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。
+答案：B.&quot;支架&quot;模板功能需要我们手动完成视图代码编写。
+C.&quot;支架&quot;模板功能只能在强类型视图基础上使用。
+D.&quot;支架&quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。
+</code></pre>
+<h2 id="heading"></h2>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://shuxing-long.github.io/categories/mvc/">MVC</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://shuxing-long.github.io/">Be_Yourslf</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span><span><a href="https://shuxing-long.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://shuxing-long.github.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/shuxing-Long?tab=repositories">shuxing Long</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://shuxing-long.github.io/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>
