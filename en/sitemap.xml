@@ -33,13 +33,48 @@
   </url>
   
   <url>
-    <loc>https://shuxing-long.github.io/blog/</loc>
-    <lastmod>2021-06-03T08:42:39+08:00</lastmod>
+    <loc>https://shuxing-long.github.io/mvc/</loc>
+    <lastmod>2021-07-02T15:34:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/mvc/mvccheckthegaps/</loc>
+    <lastmod>2021-07-02T15:34:49+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/</loc>
+    <lastmod>2021-07-02T15:34:49+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://shuxing-long.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuxing-long.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/categories/asp.net-web/</loc>
+    <lastmod>2021-07-02T14:26:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/asp.net_web/</loc>
+    <lastmod>2021-07-02T14:26:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/asp.net_web/checkthegaps/</loc>
+    <lastmod>2021-07-02T14:26:35+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://shuxing-long.github.io/categories/</loc>
-    <lastmod>2021-06-03T08:42:39+08:00</lastmod>
+    <lastmod>2021-07-02T14:26:35+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -53,6 +88,11 @@
   </url>
   
   <url>
+    <loc>https://shuxing-long.github.io/blog/</loc>
+    <lastmod>2021-06-03T08:42:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shuxing-long.github.io/categories/sql/</loc>
     <lastmod>2021-06-03T08:42:39+08:00</lastmod>
   </url>
@@ -60,21 +100,6 @@
   <url>
     <loc>https://shuxing-long.github.io/blog/sqltheory/</loc>
     <lastmod>2021-06-03T08:42:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/</loc>
-    <lastmod>2021-06-03T08:42:39+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://shuxing-long.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shuxing-long.github.io/"
-                />
   </url>
   
   <url>
@@ -90,16 +115,6 @@
   <url>
     <loc>https://shuxing-long.github.io/jsxx/</loc>
     <lastmod>2021-03-26T09:54:35+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/categories/asp.net-web/</loc>
-    <lastmod>2021-03-23T08:44:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/asp.net_web/</loc>
-    <lastmod>2021-03-23T08:44:37+08:00</lastmod>
   </url>
   
   <url>
@@ -125,11 +140,6 @@
   <url>
     <loc>https://shuxing-long.github.io/jsxx/js_1/</loc>
     <lastmod>2021-03-22T11:51:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/mvc/</loc>
-    <lastmod>2021-02-02T11:51:49+08:00</lastmod>
   </url>
   
   <url>

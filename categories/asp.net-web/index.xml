@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 23 Mar 2021 08:44:37 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/categories/asp.net-web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 14:26:35 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/categories/asp.net-web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#查缺补漏</title>
+      <link>https://shuxing-long.github.io/asp.net_web/checkthegaps/</link>
+      <pubDate>Fri, 02 Jul 2021 14:26:35 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/asp.net_web/checkthegaps/</guid>
+      <description>对C#的一些基础知识的查缺补漏，在此记录： 1.const是不变常量，在编译的时候就需要有确定的值，只能用于数值和字符串，或者引用类型只能为null.（这里为什么要把字符串单独拿出来？是因为字符串string是引用类型，但是使用的时候却感觉是值类型，它是一种特殊的引用类型，后面会详细说），struct也不能用const标记。const可以修饰class的字段或者局部变量，不能修饰属性。而readonly仅仅用于修饰class的字段，不能修饰属性。const是属于类级别而不是实例对象级别，不能跟static一起使用。而readonly既可以是类级别也可以是实例级别，它可以与static一起使用。
+2.readonly是只读的意思，表示不能进行写操作。最重要的是它在程序运行时才会去求值。它可以是任意类型，当然可以是object，数组，struct，它必须在构造函数或者初始化器中初始化，初始化完成之后不能被修改。通常可以定义一个readonly值为DateTime的常量。而const却无法指定为DateTime类型。</description>
+    </item>
+    
     <item>
       <title>ASPnet_2</title>
       <link>https://shuxing-long.github.io/asp.net_web/aspnet_2/</link>

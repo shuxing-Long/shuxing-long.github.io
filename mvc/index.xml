@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 02 Feb 2021 11:51:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/mvc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 15:34:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/mvc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MVC查缺补漏</title>
+      <link>https://shuxing-long.github.io/mvc/mvccheckthegaps/</link>
+      <pubDate>Fri, 02 Jul 2021 15:34:49 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/mvc/mvccheckthegaps/</guid>
+      <description>记忆力不好,先记这里忘记了来这里看。方便 1.点击操作栏“删除”按钮，提示是否删除 @Html.ActionLink(&amp;ldquo;删除&amp;rdquo;, &amp;ldquo;控制器名称&amp;rdquo;, new { id = item.PayerID },new { onclick=&amp;ldquo;return confirm(&amp;lsquo;是否删除！&#39;)&amp;rdquo; })</description>
+    </item>
+    
     <item>
       <title>MVC错题笔记</title>
       <link>https://shuxing-long.github.io/mvc/mvc/</link>

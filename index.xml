@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 03 Jun 2021 08:42:39 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 15:34:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://shuxing-long.github.io/posts/2014/09/creating-a-new-theme/</link>
@@ -27,6 +27,25 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>MVC查缺补漏</title>
+      <link>https://shuxing-long.github.io/mvc/mvccheckthegaps/</link>
+      <pubDate>Fri, 02 Jul 2021 15:34:49 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/mvc/mvccheckthegaps/</guid>
+      <description>记忆力不好,先记这里忘记了来这里看。方便 1.点击操作栏“删除”按钮，提示是否删除 @Html.ActionLink(&amp;ldquo;删除&amp;rdquo;, &amp;ldquo;控制器名称&amp;rdquo;, new { id = item.PayerID },new { onclick=&amp;ldquo;return confirm(&amp;lsquo;是否删除！&#39;)&amp;rdquo; })</description>
+    </item>
+    
+    <item>
+      <title>C#查缺补漏</title>
+      <link>https://shuxing-long.github.io/asp.net_web/checkthegaps/</link>
+      <pubDate>Fri, 02 Jul 2021 14:26:35 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/asp.net_web/checkthegaps/</guid>
+      <description>对C#的一些基础知识的查缺补漏，在此记录： 1.const是不变常量，在编译的时候就需要有确定的值，只能用于数值和字符串，或者引用类型只能为null.（这里为什么要把字符串单独拿出来？是因为字符串string是引用类型，但是使用的时候却感觉是值类型，它是一种特殊的引用类型，后面会详细说），struct也不能用const标记。const可以修饰class的字段或者局部变量，不能修饰属性。而readonly仅仅用于修饰class的字段，不能修饰属性。const是属于类级别而不是实例对象级别，不能跟static一起使用。而readonly既可以是类级别也可以是实例级别，它可以与static一起使用。
+2.readonly是只读的意思，表示不能进行写操作。最重要的是它在程序运行时才会去求值。它可以是任意类型，当然可以是object，数组，struct，它必须在构造函数或者初始化器中初始化，初始化完成之后不能被修改。通常可以定义一个readonly值为DateTime的常量。而const却无法指定为DateTime类型。</description>
     </item>
     
     <item>
@@ -81,30 +100,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>https://shuxing-long.github.io/jsxx/js_1/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>MVC错题笔记</title>
-      <link>https://shuxing-long.github.io/mvc/mvc/</link>
-      <pubDate>Tue, 02 Feb 2021 11:51:49 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/mvc/mvc/</guid>
-      <description>1.在Asp.net mvc中如何获取上传文件保存的路径？ A.通过File类获取磁盘路径。答案：B.通过Server.MapPath()获取服务器路径。C.通过Directory获取磁盘目录。D.直接使用绝对路径。 2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码? A.Html.select()B.Html.CheckBox()C.Html.TextBox()答案：D.Html.DropDownList() 3.在ASP .NET MVC中，以下对于强类型理解错误的是？ A.强类型的使用可以提高开发视图的效率和精准度。B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。答案：C.@model关键字指定属性Property的值。D.Razor视图可以智能感知，可直接访问强类型对象的属性。 4.以下MVC执行流程正确的是？ 答案：浏览器请求》模型》控制器》视图》显示结果 5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？ 答案:System.web.Mvc.html 6.asp.net mvc中，下列那个辅助方法可以输出&amp;lt;input type=&amp;ldquo;text&amp;rdquo; 答案:html.textbox() 7.在asp.net mvc中，以下关于强类型说法正确的是？ A.object类型就属于&amp;quot;强类型&amp;quot;B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。D.强类型指的是变量在定义时已经明确指定其类型，如：var age; 8.在asp.net mvc中，下列关于支架模板说法错误的是？ A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。答案：B.&amp;quot;支架&amp;quot;模板功能需要我们手动完成视图代码编写。C.&amp;quot;支架&amp;quot;模板功能只能在强类型视图基础上使用。D.&amp;quot;支架&amp;quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。 9.在asp.net mvc中，关于ajax辅助方法，下列理解错误的是？ 答案：A.Ajax辅助方法与服务器采用的是Ajax(同步交互)方式。B.使用Ajax辅助方法必须先引入Jquer.unobtrusive-ajax,js。C.当使用Ajax辅助方法时，无须编写任何脚本代码即可实现程序的异步性。D.Ajax辅助方法通过&amp;quot;@Ajax&amp;quot;进行调用。 </description>
-    </item>
-    
-    <item>
-      <title>第一章</title>
-      <link>https://shuxing-long.github.io/asp.net_web/asp.nwt_1/</link>
-      <pubDate>Tue, 02 Feb 2021 11:51:49 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/asp.net_web/asp.nwt_1/</guid>
-      <description>1.1 web应用程序大概有两种：静态网页和动态网页。 静态网页的工作流程：
- 响应 -------------------------------------------------------------- | | | ---------------------------- 浏览器--------------&amp;gt;网络-------------------------&amp;gt; | web服务器&amp;lt;-------&amp;gt;静态页面 | 请求 ---------------------------- 动态网页的工作流程：
- 响应 -------------------------------------------------------------- | | | ---------------------------- 浏览器--------------&amp;gt;网络-------------------------&amp;gt; | web服务器&amp;lt;-------&amp;gt;静态页面 | 请求 | | | | |-&amp;gt;动态脚本 | | | 程序 ---&amp;gt;数据库 | |（JSP,ASP) | ---------------------------- 1.2 HTTP协议 URL:URL是Uniform Resource Locator的缩写，表示统一的资源定位器，是专为标识网络上的 资源位置而设定的一种编码地址方式。
-URL格式：
- 应用层协议://主机IP地址或域名/资源所在路径/文件名 总结 web应用程序二点工作原理是什么： 1.用户在浏览器输入网址或点击按钮提交请求 2.浏览器以HTTP协议的规定把请求传输到服务器中，服务器处理信息，再回传到用户浏览器中
-HTTP的请求方式有那行：
-1.post和get</description>
     </item>
     
   </channel>
