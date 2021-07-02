@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vue on 零的学习笔记</title>
-    <link>https://shuxing-long.github.io/categories/vue/</link>
-    <description>Recent content in Vue on 零的学习笔记</description>
+    <title>Vues on 零的学习笔记</title>
+    <link>https://shuxing-long.github.io/vue/</link>
+    <description>Recent content in Vues on 零的学习笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 17:23:56 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/categories/vue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 17:23:56 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ProblemSolved</title>
       <link>https://shuxing-long.github.io/vue/problemsolved/</link>
@@ -17,15 +17,6 @@
       <description>子组件向父组件传输数据 使用this.$emit(&amp;ldquo;父组件调用的函数&amp;rdquo;,传输的值)。 多值时this.$emit(&amp;ldquo;父组件调用的函数&amp;rdquo;,{传输的值1，传输的值2})。 例子： 子组件中：
  doExit(e){ e.preventDefault(); let _this=this; let isLogin=false; _this.$emit(&amp;quot;submit&amp;quot;,isLogin); //注销用户 } 父组件中：
  &amp;lt;projectList @submit=&amp;quot;doExit&amp;quot;&amp;gt;&amp;lt;/projectList&amp;gt; //对应的组件传递会走到@submit里的doExit函数里 methods: { doExit(result){ //注销用户 this.isLogin=result.isLogin; } }, </description>
-    </item>
-    
-    <item>
-      <title>Vue</title>
-      <link>https://shuxing-long.github.io/blog/vue/</link>
-      <pubDate>Fri, 02 Jul 2021 16:49:50 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/blog/vue/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 16:49:50 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 17:23:56 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://shuxing-long.github.io/posts/2014/09/creating-a-new-theme/</link>
@@ -27,6 +27,17 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>ProblemSolved</title>
+      <link>https://shuxing-long.github.io/vue/problemsolved/</link>
+      <pubDate>Fri, 02 Jul 2021 17:23:56 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/vue/problemsolved/</guid>
+      <description>子组件向父组件传输数据 使用this.$emit(&amp;ldquo;父组件调用的函数&amp;rdquo;,传输的值)。 多值时this.$emit(&amp;ldquo;父组件调用的函数&amp;rdquo;,{传输的值1，传输的值2})。 例子： 子组件中：
+ doExit(e){ e.preventDefault(); let _this=this; let isLogin=false; _this.$emit(&amp;quot;submit&amp;quot;,isLogin); //注销用户 } 父组件中：
+ &amp;lt;projectList @submit=&amp;quot;doExit&amp;quot;&amp;gt;&amp;lt;/projectList&amp;gt; //对应的组件传递会走到@submit里的doExit函数里 methods: { doExit(result){ //注销用户 this.isLogin=result.isLogin; } }, </description>
     </item>
     
     <item>
@@ -98,15 +109,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>https://shuxing-long.github.io/asp.net_web/aspnet_2/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>MVC</title>
-      <link>https://shuxing-long.github.io/blog/mvc/</link>
-      <pubDate>Mon, 22 Mar 2021 14:21:19 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/blog/mvc/</guid>
-      <description>点击下面查看笔记</description>
     </item>
     
   </channel>
