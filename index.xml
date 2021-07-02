@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 15:34:49 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 16:49:50 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://shuxing-long.github.io/posts/2014/09/creating-a-new-theme/</link>
@@ -30,12 +30,37 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Vue</title>
+      <link>https://shuxing-long.github.io/blog/vue/</link>
+      <pubDate>Fri, 02 Jul 2021 16:49:50 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/blog/vue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mvc第五章</title>
+      <link>https://shuxing-long.github.io/mvc/mvcfives/</link>
+      <pubDate>Fri, 02 Jul 2021 16:03:04 +0800</pubDate>
+      
+      <guid>https://shuxing-long.github.io/mvc/mvcfives/</guid>
+      <description>5.2 jQuery验证 $(function(){ $(&amp;quot;#registerFrm&amp;quot;).validate({ rules:{ uname:{ required:true }, upwd: { required:true }, upwd1:{ required:true, equalTo:&amp;quot;#upwd1&amp;quot; } },messages:{ uname:{ required:&amp;quot;请输入用户名！&amp;quot; }, upwd: { required: &amp;quot;请输入密码！&amp;quot; }, upwd1:{ required: &amp;quot;请输入确认密码！！&amp;quot;,equalTo:&amp;quot;两次密码输入的不一致！&amp;quot; } } }) }) 5.3 模型验证的写法 名称空间：System.ComponentModel.DataAnnotations
+1 两个属性值必须相等：
+ [Compare(&amp;quot;另一个判断的值&amp;quot;, ErrorMessage = &amp;quot;不能为空&amp;quot;) ] 2.其值必须在指定的数值范围内：
+ [Range(10,20,ErrorMessage = &amp;quot;不能为空&amp;quot;)] 3.其值必须匹配正则表达式：
+ [RegularExpression(&amp;quot;pattern&amp;quot;,ErrorMessage=&amp;quot;不能为空&amp;quot;)] 4.其值必须非空或不能只是空格：
+ [Required(ErrorMessage(&amp;quot;不能为空&amp;quot;))] 5.其值长度不能超过给定的最大长度：
+ [StringLength(10,ErrorMessage(&amp;quot;不能为空&amp;quot;))] </description>
+    </item>
+    
+    <item>
       <title>MVC查缺补漏</title>
       <link>https://shuxing-long.github.io/mvc/mvccheckthegaps/</link>
       <pubDate>Fri, 02 Jul 2021 15:34:49 +0800</pubDate>
       
       <guid>https://shuxing-long.github.io/mvc/mvccheckthegaps/</guid>
-      <description>记忆力不好,先记这里忘记了来这里看。方便 1.点击操作栏“删除”按钮，提示是否删除 @Html.ActionLink(&amp;ldquo;删除&amp;rdquo;, &amp;ldquo;控制器名称&amp;rdquo;, new { id = item.PayerID },new { onclick=&amp;ldquo;return confirm(&amp;lsquo;是否删除！&#39;)&amp;rdquo; })</description>
+      <description>记忆力不好,先记这里忘记了来这里看。方便 1.点击操作栏“删除”按钮，提示是否删除
+ @Html.ActionLink(&amp;quot;删除&amp;quot;, &amp;quot;控制器名称&amp;quot;, new { id = item.PayerID },new { onclick=&amp;quot;return confirm(&#39;是否删除！&#39;)&amp;quot; }) </description>
     </item>
     
     <item>
@@ -82,24 +107,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       
       <guid>https://shuxing-long.github.io/blog/mvc/</guid>
       <description>点击下面查看笔记</description>
-    </item>
-    
-    <item>
-      <title>学习js</title>
-      <link>https://shuxing-long.github.io/blog/js/</link>
-      <pubDate>Mon, 22 Mar 2021 14:21:19 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/blog/js/</guid>
-      <description>点击下面查看笔记</description>
-    </item>
-    
-    <item>
-      <title>学习js第一章</title>
-      <link>https://shuxing-long.github.io/jsxx/js_1/</link>
-      <pubDate>Mon, 22 Mar 2021 11:51:49 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/jsxx/js_1/</guid>
-      <description></description>
     </item>
     
   </channel>

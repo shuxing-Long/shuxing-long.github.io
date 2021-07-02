@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Be_Yourslf ">
+<meta name="description" content="5.2 jQuery验证 $(function(){ $(&amp;quot;#registerFrm&amp;quot;).validate({ rules:{ uname:{ required:true }, upwd: { required:true }, upwd1:{ required:true, equalTo:&amp;quot;#upwd1&amp;quot; } },messages:{ uname:{ required:&amp;quot;请输入用户名！&amp;quot; }, upwd: { required: &amp;quot;请输入密码！&amp;quot; }, upwd1:{ required: &amp;quot;请输入确认密码！！&amp;quot;,equalTo:&amp;quot;两次密码输入的不一致！&amp;quot; } } }) }) 5.3 模型验证的写法 名称空间：System.ComponentModel.DataAnnotations
+1 两个属性值必须相等：
+ [Compare(&amp;quot;另一个判断的值&amp;quot;, ErrorMessage = &amp;quot;不能为空&amp;quot;) ] 2.其值必须在指定的数值范围内：
+ [Range(10,20,ErrorMessage = &amp;quot;不能为空&amp;quot;)] 3.其值必须匹配正则表达式：
+ [RegularExpression(&amp;quot;pattern&amp;quot;,ErrorMessage=&amp;quot;不能为空&amp;quot;)] 4.其值必须非空或不能只是空格：
+ [Required(ErrorMessage(&amp;quot;不能为空&amp;quot;))] 5.其值长度不能超过给定的最大长度：
+ [StringLength(10,ErrorMessage(&amp;quot;不能为空&amp;quot;))] " />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://shuxing-long.github.io/mvc/mvcfives/" />
+
+
+    <title>
+        
+            Mvc第五章 :: 零的学习笔记  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://shuxing-long.github.io/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://shuxing-long.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://shuxing-long.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://shuxing-long.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://shuxing-long.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://shuxing-long.github.io/safari-pinned-tab.svg" color="#1b1c1d">
+    <link rel="shortcut icon" href="https://shuxing-long.github.io/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1b1c1d">
+    <meta name="theme-color" content="#1b1c1d">
+
+
+
+<meta itemprop="name" content="Mvc第五章">
+<meta itemprop="description" content="5.2 jQuery验证 $(function(){ $(&quot;#registerFrm&quot;).validate({ rules:{ uname:{ required:true }, upwd: { required:true }, upwd1:{ required:true, equalTo:&quot;#upwd1&quot; } },messages:{ uname:{ required:&quot;请输入用户名！&quot; }, upwd: { required: &quot;请输入密码！&quot; }, upwd1:{ required: &quot;请输入确认密码！！&quot;,equalTo:&quot;两次密码输入的不一致！&quot; } } }) }) 5.3 模型验证的写法 名称空间：System.ComponentModel.DataAnnotations
+1 两个属性值必须相等：
+ [Compare(&quot;另一个判断的值&quot;, ErrorMessage = &quot;不能为空&quot;) ] 2.其值必须在指定的数值范围内：
+ [Range(10,20,ErrorMessage = &quot;不能为空&quot;)] 3.其值必须匹配正则表达式：
+ [RegularExpression(&quot;pattern&quot;,ErrorMessage=&quot;不能为空&quot;)] 4.其值必须非空或不能只是空格：
+ [Required(ErrorMessage(&quot;不能为空&quot;))] 5.其值长度不能超过给定的最大长度：
+ [StringLength(10,ErrorMessage(&quot;不能为空&quot;))] ">
+<meta itemprop="datePublished" content="2021-07-02T16:03:04+08:00" />
+<meta itemprop="dateModified" content="2021-07-02T16:03:04+08:00" />
+<meta itemprop="wordCount" content="52">
+<meta itemprop="image" content="https://shuxing-long.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://shuxing-long.github.io/"/>
+
+<meta name="twitter:title" content="Mvc第五章"/>
+<meta name="twitter:description" content="5.2 jQuery验证 $(function(){ $(&quot;#registerFrm&quot;).validate({ rules:{ uname:{ required:true }, upwd: { required:true }, upwd1:{ required:true, equalTo:&quot;#upwd1&quot; } },messages:{ uname:{ required:&quot;请输入用户名！&quot; }, upwd: { required: &quot;请输入密码！&quot; }, upwd1:{ required: &quot;请输入确认密码！！&quot;,equalTo:&quot;两次密码输入的不一致！&quot; } } }) }) 5.3 模型验证的写法 名称空间：System.ComponentModel.DataAnnotations
+1 两个属性值必须相等：
+ [Compare(&quot;另一个判断的值&quot;, ErrorMessage = &quot;不能为空&quot;) ] 2.其值必须在指定的数值范围内：
+ [Range(10,20,ErrorMessage = &quot;不能为空&quot;)] 3.其值必须匹配正则表达式：
+ [RegularExpression(&quot;pattern&quot;,ErrorMessage=&quot;不能为空&quot;)] 4.其值必须非空或不能只是空格：
+ [Required(ErrorMessage(&quot;不能为空&quot;))] 5.其值长度不能超过给定的最大长度：
+ [StringLength(10,ErrorMessage(&quot;不能为空&quot;))] "/>
+
+
+
+
+    <meta property="og:title" content="Mvc第五章" />
+<meta property="og:description" content="5.2 jQuery验证 $(function(){ $(&quot;#registerFrm&quot;).validate({ rules:{ uname:{ required:true }, upwd: { required:true }, upwd1:{ required:true, equalTo:&quot;#upwd1&quot; } },messages:{ uname:{ required:&quot;请输入用户名！&quot; }, upwd: { required: &quot;请输入密码！&quot; }, upwd1:{ required: &quot;请输入确认密码！！&quot;,equalTo:&quot;两次密码输入的不一致！&quot; } } }) }) 5.3 模型验证的写法 名称空间：System.ComponentModel.DataAnnotations
+1 两个属性值必须相等：
+ [Compare(&quot;另一个判断的值&quot;, ErrorMessage = &quot;不能为空&quot;) ] 2.其值必须在指定的数值范围内：
+ [Range(10,20,ErrorMessage = &quot;不能为空&quot;)] 3.其值必须匹配正则表达式：
+ [RegularExpression(&quot;pattern&quot;,ErrorMessage=&quot;不能为空&quot;)] 4.其值必须非空或不能只是空格：
+ [Required(ErrorMessage(&quot;不能为空&quot;))] 5.其值长度不能超过给定的最大长度：
+ [StringLength(10,ErrorMessage(&quot;不能为空&quot;))] " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shuxing-long.github.io/mvc/mvcfives/" />
+<meta property="og:image" content="https://shuxing-long.github.io/"/>
+<meta property="article:published_time" content="2021-07-02T16:03:04+08:00" />
+<meta property="article:modified_time" content="2021-07-02T16:03:04+08:00" />
+
+
+
+
+    <meta property="article:section" content="MVC" />
+
+
+
+    <meta property="article:published_time" content="2021-07-02 16:03:04 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://shuxing-long.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text">$ cd /Home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://shuxing-long.github.io/about/">About</a></li><li><a href="https://shuxing-long.github.io/blog/">Blogs</a></li><li><a href="https://shuxing-long.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://shuxing-long.github.io/mvc/mvcfives/">Mvc第五章</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h2 id="52-jquery验证">5.2 jQuery验证</h2>
+<pre><code>$(function(){
+    $(&quot;#registerFrm&quot;).validate({
+        rules:{
+            uname:{ required:true },
+            upwd: { required:true },
+            upwd1:{ required:true, equalTo:&quot;#upwd1&quot; }
+        },messages:{
+            uname:{ required:&quot;请输入用户名！&quot; },
+            upwd: { required: &quot;请输入密码！&quot; },
+            upwd1:{ required: &quot;请输入确认密码！！&quot;,equalTo:&quot;两次密码输入的不一致！&quot; }
+        }
+    })
+})
+</code></pre><h2 id="53-模型验证的写法">5.3 模型验证的写法</h2>
+<p>名称空间：System.ComponentModel.DataAnnotations</p>
+<p>1 两个属性值必须相等：</p>
+<pre><code>    [Compare(&quot;另一个判断的值&quot;, ErrorMessage = &quot;不能为空&quot;) ]
+</code></pre><p>2.其值必须在指定的数值范围内：</p>
+<pre><code>    [Range(10,20,ErrorMessage = &quot;不能为空&quot;)]
+</code></pre><p>3.其值必须匹配正则表达式：</p>
+<pre><code>    [RegularExpression(&quot;pattern&quot;,ErrorMessage=&quot;不能为空&quot;)]
+</code></pre><p>4.其值必须非空或不能只是空格：</p>
+<pre><code>    [Required(ErrorMessage(&quot;不能为空&quot;))]
+</code></pre><p>5.其值长度不能超过给定的最大长度：</p>
+<pre><code>    [StringLength(10,ErrorMessage(&quot;不能为空&quot;))]
+</code></pre>
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="https://shuxing-long.github.io/categories/mvc/">MVC</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            <span><a href="https://shuxing-long.github.io/">Be_Yourslf</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span><span><a href="https://shuxing-long.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://shuxing-long.github.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/shuxing-Long?tab=repositories">shuxing Long</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://shuxing-long.github.io/bundle.min.af435e44374f1e99a669ea8cd5bb9a2fceed80588941a451bfddb66b86a67c9f40b0f417e9543a763f809aa7e9300d7b1d69bf99615810ba02ac70396d50fad5.js" integrity="sha512-r0NeRDdPHpmmaeqM1buaL87tgFiJQaRRv922a4amfJ9AsPQX6VQ6dj&#43;AmqfpMA17HWm/mWFYELoCrHA5bVD61Q=="></script>
+
+
+
+    </body>
+</html>
