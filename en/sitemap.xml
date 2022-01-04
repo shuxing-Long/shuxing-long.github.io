@@ -33,8 +33,13 @@
   </url>
   
   <url>
+    <loc>https://shuxing-long.github.io/blog/</loc>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shuxing-long.github.io/categories/</loc>
-    <lastmod>2021-07-02T17:23:56+08:00</lastmod>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -44,6 +49,41 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://shuxing-long.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/categories/feeling/</loc>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/blog/feeling/</loc>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/feeling/20220104feeling/</loc>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/feeling/</loc>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shuxing-long.github.io/</loc>
+    <lastmod>2022-01-04T21:48:05+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://shuxing-long.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuxing-long.github.io/"
                 />
   </url>
   
@@ -60,26 +100,6 @@
   <url>
     <loc>https://shuxing-long.github.io/vue/</loc>
     <lastmod>2021-07-02T17:23:56+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/</loc>
-    <lastmod>2021-07-02T17:23:56+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://shuxing-long.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shuxing-long.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://shuxing-long.github.io/blog/</loc>
-    <lastmod>2021-07-02T16:49:50+08:00</lastmod>
   </url>
   
   <url>
