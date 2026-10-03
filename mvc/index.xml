@@ -1,46 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>MVCs on 零的学习笔记</title>
-    <link>https://shuxing-long.github.io/mvc/</link>
-    <description>Recent content in MVCs on 零的学习笔记</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Jul 2021 16:03:04 +0800</lastBuildDate><atom:link href="https://shuxing-long.github.io/mvc/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mvc第五章</title>
-      <link>https://shuxing-long.github.io/mvc/mvcfives/</link>
-      <pubDate>Fri, 02 Jul 2021 16:03:04 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/mvc/mvcfives/</guid>
-      <description>5.2 jQuery验证 $(function(){ $(&amp;quot;#registerFrm&amp;quot;).validate({ rules:{ uname:{ required:true }, upwd: { required:true }, upwd1:{ required:true, equalTo:&amp;quot;#upwd1&amp;quot; } },messages:{ uname:{ required:&amp;quot;请输入用户名！&amp;quot; }, upwd: { required: &amp;quot;请输入密码！&amp;quot; }, upwd1:{ required: &amp;quot;请输入确认密码！！&amp;quot;,equalTo:&amp;quot;两次密码输入的不一致！&amp;quot; } } }) }) 5.3 模型验证的写法 名称空间：System.ComponentModel.DataAnnotations
-1 两个属性值必须相等：
- [Compare(&amp;quot;另一个判断的值&amp;quot;, ErrorMessage = &amp;quot;不能为空&amp;quot;) ] 2.其值必须在指定的数值范围内：
- [Range(10,20,ErrorMessage = &amp;quot;不能为空&amp;quot;)] 3.其值必须匹配正则表达式：
- [RegularExpression(&amp;quot;pattern&amp;quot;,ErrorMessage=&amp;quot;不能为空&amp;quot;)] 4.其值必须非空或不能只是空格：
- [Required(ErrorMessage(&amp;quot;不能为空&amp;quot;))] 5.其值长度不能超过给定的最大长度：
- [StringLength(10,ErrorMessage(&amp;quot;不能为空&amp;quot;))] </description>
-    </item>
-    
-    <item>
-      <title>MVC查缺补漏</title>
-      <link>https://shuxing-long.github.io/mvc/mvccheckthegaps/</link>
-      <pubDate>Fri, 02 Jul 2021 15:34:49 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/mvc/mvccheckthegaps/</guid>
-      <description>记忆力不好,先记这里忘记了来这里看。方便 1.点击操作栏“删除”按钮，提示是否删除
- @Html.ActionLink(&amp;quot;删除&amp;quot;, &amp;quot;控制器名称&amp;quot;, new { id = item.PayerID },new { onclick=&amp;quot;return confirm(&#39;是否删除！&#39;)&amp;quot; }) </description>
-    </item>
-    
-    <item>
-      <title>MVC错题笔记</title>
-      <link>https://shuxing-long.github.io/mvc/mvc/</link>
-      <pubDate>Tue, 02 Feb 2021 11:51:49 +0800</pubDate>
-      
-      <guid>https://shuxing-long.github.io/mvc/mvc/</guid>
-      <description>1.在Asp.net mvc中如何获取上传文件保存的路径？ A.通过File类获取磁盘路径。答案：B.通过Server.MapPath()获取服务器路径。C.通过Directory获取磁盘目录。D.直接使用绝对路径。 2.在ASP.net mvc中，选项中那个辅助方法可以生成如下代码? A.Html.select()B.Html.CheckBox()C.Html.TextBox()答案：D.Html.DropDownList() 3.在ASP .NET MVC中，以下对于强类型理解错误的是？ A.强类型的使用可以提高开发视图的效率和精准度。B.强类型即在变量定义时已明确指定其类型，最经典的应用是结合视图。答案：C.@model关键字指定属性Property的值。D.Razor视图可以智能感知，可直接访问强类型对象的属性。 4.以下MVC执行流程正确的是？ 答案：浏览器请求》模型》控制器》视图》显示结果 5.ASP.Net MVC 所有的HtmlHelper扩展方法所在命名空间为？ 答案:System.web.Mvc.html 6.asp.net mvc中，下列那个辅助方法可以输出&amp;lt;input type=&amp;ldquo;text&amp;rdquo; 答案:html.textbox() 7.在asp.net mvc中，以下关于强类型说法正确的是？ A.object类型就属于&amp;quot;强类型&amp;quot;B.视图中的Model属性不可以由视图代码直接访问，并且为动态类型。答案：C.强类型声明的写法是在视图中用@model关键字指定Model属性的类型。D.强类型指的是变量在定义时已经明确指定其类型，如：var age; 8.在asp.net mvc中，下列关于支架模板说法错误的是？ A.支架模板它结合数据模型对象，自动生成支持增删改查的视图和控制器代码提高了开发效率。答案：B.&amp;quot;支架&amp;quot;模板功能需要我们手动完成视图代码编写。C.&amp;quot;支架&amp;quot;模板功能只能在强类型视图基础上使用。D.&amp;quot;支架&amp;quot;模板功能不能满足复杂的业务需求，仍然需要进行手动编码完成复杂业务处理。 9.在asp.net mvc中，关于ajax辅助方法，下列理解错误的是？ 答案：A.Ajax辅助方法与服务器采用的是Ajax(同步交互)方式。B.使用Ajax辅助方法必须先引入Jquer.unobtrusive-ajax,js。C.当使用Ajax辅助方法时，无须编写任何脚本代码即可实现程序的异步性。D.Ajax辅助方法通过&amp;quot;@Ajax&amp;quot;进行调用。 </description>
-    </item>
-    
-  </channel>
-</rss>
