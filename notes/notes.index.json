@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T12:40:01.951Z",
-  "source": "G:\\Obsidian-notes\\lsl-note",
+  "generatedAt": "2026-10-04T00:58:25.225Z",
+  "source": "/srv/notes-mcp/lsl-note",
   "tree": [
     {
       "type": "folder",
@@ -3322,7 +3322,7 @@
           "path": "A-009-线性代数/00-目录.md",
           "date": "",
           "tags": [],
-          "size": 3943
+          "size": 3874
         },
         {
           "type": "note",
@@ -3476,7 +3476,7 @@
           "path": "A-009-线性代数/10-线性方程组与交点.md",
           "date": "",
           "tags": [],
-          "size": 3681
+          "size": 3553
         }
       ]
     }
@@ -3543,7 +3543,7 @@
       "catalog": "A-009-线性代数",
       "date": "",
       "tags": [],
-      "size": 3943
+      "size": 3874
     },
     {
       "id": "A-009-线性代数/01-向量基础概念",
@@ -3687,7 +3687,7 @@
       "catalog": "A-009-线性代数",
       "date": "",
       "tags": [],
-      "size": 3681
+      "size": 3553
     },
     {
       "id": "A-009-线性代数/习题/00-习题总览",
